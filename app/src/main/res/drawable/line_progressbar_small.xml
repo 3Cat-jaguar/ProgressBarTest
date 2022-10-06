@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/custom_progressbar_line_background"
+    android:scaleWidth="100%"
+    >
+    <shape
+        android:shape="rectangle"
+        android:useLevel="true"
+        >
+        <size
+            android:width="100dp"
+            android:height="10dp"/>
+        <solid
+            android:color="@color/black"
+            />
+
+        <corners
+            android:topLeftRadius="5dp"
+            android:bottomLeftRadius="5dp"
+            />
+        <gradient
+            android:startColor="@color/teal_700"
+            android:endColor="@color/teal_200"
+            android:type="linear"
+            />
+
+    </shape>
+
+</scale>

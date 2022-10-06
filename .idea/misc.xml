@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/custom_progressbar_line_background.xml" value="0.186" />
         <entry key="app/src/main/res/drawable/custom_progressbar_ring_background.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/line_progressbar.xml" value="0.186" />
         <entry key="app/src/main/res/drawable/ring_progressbar.xml" value="0.2095" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1890625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/custom_progressbar_line.xml" value="0.4524714828897338" />
         <entry key="app/src/main/res/layout/custom_progressbar_ring.xml" value="0.20208333333333334" />
       </map>
     </option>

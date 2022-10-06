@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <kr.co.sisoul.progressbartest.customview.CustomLineProgressBar
+        android:id="@+id/line_progress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/ring_progress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:customProgressRatio="40"
+        android:layout_margin="50dp"
+        />
+
     <kr.co.sisoul.progressbartest.customview.CustomRingProgressBar
         android:id="@+id/ring_progress"
         android:layout_width="100dp"
@@ -14,8 +25,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:customProgressRatio="40"
+        app:customProgressRatio="50"
         />
+
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
