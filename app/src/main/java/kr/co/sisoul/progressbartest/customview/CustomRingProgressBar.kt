@@ -14,10 +14,10 @@ constructor(context : Context, attrs: AttributeSet?=null, defStyleAttr: Int = 0)
     init {
         context.theme.obtainStyledAttributes(
             attrs,
-            R.styleable.CustomRingProgressBar,
+            R.styleable.CustomProgressBar,
             0, 0).apply {
             try {
-                val ratio = getInt(R.styleable.CustomRingProgressBar_customProgressRatio, 5)
+                val ratio = getInt(R.styleable.CustomProgressBar_customProgressRatio, 5)
                 setRatio(ratio)
             } finally {
                 recycle()
